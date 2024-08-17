@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Fallow";
+  src: url("../fonts/Fallow-3zg28.otf");
+}
+@font-face {
+  font-family: "FingerZoo";
+  src: url("../fonts/Asap-Symbol.otf");
+}
+header {
+  height: 720px;
+  background-image: url("../img/lion.jpg");
+  background-position: center;
+}
+header nav {
+  font-family: "FingerZoo", sans-serif;
+  background-color: rgba(0, 0, 1, 0.8);
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+header nav img {
+  height: 60px;
+}
+header nav .navbar-toggler {
+  box-shadow: none !important;
+}
+header nav a {
+  color: white !important;
+  transition: 0.4s !important;
+}
+header nav a:hover {
+  color: #bfbfbf !important;
+}
+header nav #ulaznice {
+  margin-right: 40px !important;
+  background-color: #f17903;
+  padding: 10px 20px !important;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+header nav #ulaznice:hover {
+  background-color: #a55302;
+  color: white !important;
+}
+header .hero-section {
+  padding-top: 180px;
+  font-family: "FingerZoo", sans-serif;
+}
+header .hero-section h1 {
+  color: white;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+header .hero-section a {
+  background-color: #f17903;
+  padding: 15px 40px;
+  border-radius: 5%;
+  text-transform: uppercase;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  font-size: 20px;
+}
+header .hero-section a:hover {
+  background-color: #a55302;
+}
+
+.about-section {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.about-section h1 {
+  font-family: "FingerZoo", sans-serif;
+  color: #f17903;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-section .container {
+  padding-top: 35px;
+}
+.about-section .container p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-section .container iframe {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.contact-section {
+  background-image: url("../img/Kontakt.jpg");
+  padding: 70px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact-section .text {
+  text-align: center;
+}
+.contact-section .text h2 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #f17903;
+}
+.contact-section .text p {
+  color: white;
+  font-size: 20px;
+}
+.contact-section .text a {
+  font-family: "FingerZoo", sans-serif;
+  font-size: 25px;
+  padding: 0 30px;
+}
+
+.animal-info {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.animal-info h1 {
+  font-family: "FingerZoo", sans-serif;
+  text-transform: uppercase;
+  color: #f17903;
+  padding-bottom: 30px;
+}
+.animal-info img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.animal-info .card {
+  height: 550px;
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.animal-info a {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "FingerZoo", sans-serif;
+}
+.animal-info #lemuri {
+  background-color: #7e5179;
+}
+.animal-info #lemuri h4 {
+  font-family: "FingerZoo", sans-serif;
+  color: #fff032;
+}
+.animal-info #lemuri p {
+  color: white;
+}
+.animal-info #tigrovi {
+  background-color: #e31b22;
+  color: white;
+}
+.animal-info #tigrovi h4 {
+  color: black;
+  font-family: "FingerZoo", sans-serif;
+}
+.animal-info #zirafe {
+  background-color: #b2bb1e;
+  color: white;
+}
+.animal-info #zirafe h4 {
+  color: #095337;
+  font-family: "FingerZoo", sans-serif;
+}
+
+.gallery-section {
+  font-family: "FingerZoo", sans-serif;
+}
+.gallery-section .gallery {
+  background-image: url("../img/Galerija.jpg");
+  height: 600px;
+  background-position: center;
+  text-align: center;
+}
+.gallery-section .gallery h1 {
+  position: relative;
+  top: 8%;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0a6946;
+}
+.gallery-section .gallery a {
+  position: relative;
+  top: 45%;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #0a6946;
+  padding: 15px 25px;
+  border-radius: 5%;
+  transition: 0.4s;
+}
+.gallery-section .gallery a:hover {
+  background-color: #074830;
+}
+
+.news-section {
+  background-image: url("../img/NewsPozadina.png");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.news-section h1 {
+  font-family: "FingerZoo", sans-serif;
+  text-transform: uppercase;
+  color: #f17903;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.news-section .card {
+  margin-bottom: 20px;
+  height: 620px;
+  border: 1px black solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news-section .card img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0 20px 0;
+  background-color: rgb(44, 44, 44);
+}
+footer img {
+  margin-bottom: 30px;
+}
+footer .logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+footer .links {
+  margin-right: 35px;
+  font-family: "FingerZoo", sans-serif;
+}
+footer .links ul {
+  list-style: none;
+}
+footer .links ul li {
+  margin-bottom: 10px;
+}
+footer .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .links ul li a:hover {
+  color: #bfbfbf !important;
+}
+footer .bg-prijatelj {
+  position: relative;
+  top: 10%;
+}
+footer .bioloski {
+  position: relative;
+  top: 15%;
+}
+footer .medicina {
+  position: relative;
+  top: 15%;
+}
+
+.after-footer {
+  background-color: #f17903;
+  padding: 7px 0;
+  color: white;
+  text-align: center;
+}
+.after-footer p {
+  padding-top: 10px;
+  color: #5a2d01;
+}/*# sourceMappingURL=style.css.map */

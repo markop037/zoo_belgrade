@@ -1,0 +1,160 @@
+@font-face{
+    font-family: 'Fallow';
+    src: url("../fonts/Fallow-3zg28.otf");
+}
+@font-face{
+    font-family: 'FingerZoo';
+    src:url("../fonts/Asap-Symbol.otf");
+}
+
+$orange: #f17903;
+
+header{
+    nav{
+        font-family: 'FingerZoo', sans-serif;
+        background-color: rgba(0, 0, 1, 0.8);
+        padding-top: 20px;
+        padding-bottom: 15px;
+        img{
+            height: 60px;
+        }
+        .navbar-toggler{
+            box-shadow: none !important;
+        }
+        a{
+            color: white !important;
+            transition: 0.4s !important;
+            &:hover{
+                color: darken(white, 25%) !important;
+            }
+        }
+        #ulaznice{
+            margin-right: 40px !important;
+            background-color: $orange;
+            padding: 10px 20px !important;
+            border-radius: 5%;
+            text-transform: uppercase;
+            &:hover{
+                background-color: darken($orange, 15%);
+                color: white !important;
+            }
+        }
+    }
+}
+
+.headline{
+    font-family: 'FingerZoo', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $orange;
+    padding-top: 70px;
+}
+
+.animal-section{
+    padding: 70px 0;
+    text-align: center;
+    .card{
+        transition: 0.6s !important;
+        margin: auto;
+        width: 78%;
+        border: none;
+        margin-bottom: 60px;
+        .card-img{
+            height: 500px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+        .card-img-overlay{
+            transition: 0.6s !important;
+            opacity: 0;
+            color: rgb(235, 235, 235);
+            text-align: left;
+            h1{
+                font-family: 'FingerZoo', sans-serif;
+                color: $orange;
+                padding-top: 30px;
+                padding-bottom: 10px;
+            }
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(0, 0, 0, 0.6);
+            display: block;
+            opacity: 0;
+            border-radius: 15px;
+            transition: 0.6;
+        }
+        &:hover{
+            transform: translateY(-20px);
+            transition: 0.5s !important;
+            cursor: pointer;
+            &::before{
+                opacity: 1;
+                transition: 0.5s;
+            }
+            .card-img-overlay{
+                opacity: 1;
+                transition: 0.5s !important;
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0 20px 0;
+    background-color: rgb(44, 44, 44);
+    img{
+        margin-bottom: 30px;
+    }
+    .logo{
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .links{
+        margin-right: 35px;
+        font-family: 'FingerZoo', sans-serif;
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: darken(white, 25%) !important;
+                    }   
+                }
+            }
+        }
+    }
+    .bg-prijatelj{
+        position: relative;
+        top: 10%;
+    }
+    .bioloski{
+        position: relative;
+        top: 15%;
+    }
+    .medicina{
+        position: relative;
+        top: 15%;
+    }
+}
+
+.after-footer{
+    background-color: $orange;
+    padding: 7px 0;
+    color: white;
+    text-align: center;
+    p{
+        padding-top: 10px;
+        color: darken($orange, 30%);
+    }
+}

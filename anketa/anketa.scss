@@ -1,0 +1,201 @@
+@font-face{
+    font-family: 'Fallow';
+    src: url("../fonts/Fallow-3zg28.otf");
+}
+@font-face{
+    font-family: 'FingerZoo';
+    src:url("../fonts/Asap-Symbol.otf");
+}
+
+$orange: #f17903;
+$primary-color: #007bff;
+$secondary-color: #ffc107;
+$tertiary-color: #28a745;
+$font-color: #333;
+
+$transition-speed: 0.3s;
+
+header{
+    nav{
+        font-family: 'FingerZoo', sans-serif;
+        background-color: rgba(0, 0, 1, 0.8);
+        padding-top: 20px;
+        padding-bottom: 15px;
+        img{
+            height: 60px;
+        }
+        .navbar-toggler{
+            box-shadow: none !important;
+        }
+        a{
+            color: white !important;
+            transition: 0.4s !important;
+            &:hover{
+                color: darken(white, 25%) !important;
+            }
+        }
+        #ulaznice{
+            margin-right: 40px !important;
+            background-color: $orange;
+            padding: 10px 20px !important;
+            border-radius: 5%;
+            text-transform: uppercase;
+            &:hover{
+                background-color: darken($orange, 15%);
+                color: white !important;
+            }
+        }
+    }
+}
+
+h1{
+    font-family: 'FingerZoo', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $orange;
+    padding: 70px 0;
+}
+
+#con {
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color $transition-speed;
+    
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  
+  .question {
+    margin-bottom: 20px;
+  
+    p {
+      font-weight: bold;
+      color: $font-color;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      color: $font-color;
+      transition: border-color $transition-speed;
+      
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+        box-shadow: 0 0 4px $primary-color;
+      }
+    }
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: $orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color $transition-speed;
+    
+    &:hover {
+      background-color: darken($orange, 10%);
+    }
+  }
+  
+  #statistics {
+    margin-top: 30px;
+    
+    h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: $orange;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      
+      li {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        
+        &.red {
+          color: red;
+        }
+        
+        &.orange {
+          color: $secondary-color;
+        }
+        
+        &.green {
+          color: $tertiary-color;
+        }
+      }
+    }
+  }
+}
+
+footer{
+    margin-top: 70px;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    background-color: rgb(44, 44, 44);
+    img{
+        margin-bottom: 30px;
+    }
+    .logo{
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .links{
+        margin-right: 35px;
+        font-family: 'FingerZoo', sans-serif;
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: darken(white, 25%) !important;
+                    }   
+                }
+            }
+        }
+    }
+    .bg-prijatelj{
+        position: relative;
+        top: 10%;
+    }
+    .bioloski{
+        position: relative;
+        top: 15%;
+    }
+    .medicina{
+        position: relative;
+        top: 15%;
+    }
+}
+
+.after-footer{
+    background-color: $orange;
+    padding: 7px 0;
+    color: white;
+    text-align: center;
+    p{
+        padding-top: 10px;
+        color: darken($orange, 30%);
+    }
+}

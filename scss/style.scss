@@ -1,0 +1,285 @@
+@font-face{
+    font-family: 'Fallow';
+    src: url("../fonts/Fallow-3zg28.otf");
+}
+@font-face{
+    font-family: 'FingerZoo';
+    src:url("../fonts/Asap-Symbol.otf");
+}
+
+$orange: #f17903;
+
+header{
+    height: 720px;
+    background-image: url("../img/lion.jpg");
+    background-position: center;
+    nav{
+        font-family: 'FingerZoo', sans-serif;
+        background-color: rgba(0, 0, 1, 0.8);
+        padding-top: 20px;
+        padding-bottom: 15px;
+        img{
+            height: 60px;
+        }
+        .navbar-toggler{
+            box-shadow: none !important;
+        }
+        a{
+            color: white !important;
+            transition: 0.4s !important;
+            &:hover{
+                color: darken(white, 25%) !important;
+            }
+        }
+        #ulaznice{
+            margin-right: 40px !important;
+            background-color: $orange;
+            padding: 10px 20px !important;
+            border-radius: 5%;
+            text-transform: uppercase;
+            &:hover{
+                background-color: darken($orange, 15%);
+                color: white !important;
+            }
+        }
+    }
+    .hero-section{
+        padding-top: 180px;
+        font-family: 'FingerZoo', sans-serif;
+        h1{
+            color: white;
+            font-size: 60px;
+            padding-bottom: 10px;
+        }
+        a{
+            background-color: $orange;
+            padding: 15px 40px;
+            border-radius: 5%;
+            text-transform: uppercase;
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+            transition: 0.4s;
+            font-size: 20px;
+            &:hover{
+                background-color: darken($orange, 15%);
+            }
+        }
+    }
+}
+
+.about-section{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-family: 'FingerZoo', sans-serif;
+        color: $orange;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .container{
+        padding-top: 35px;
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        iframe{
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+        }
+    }
+}
+
+.contact-section{
+    background-image: url("../img/Kontakt.jpg");
+    padding: 70px 0;
+    object-fit: cover;
+    .text{
+        text-align: center;
+        h2{
+            text-transform: uppercase;
+            font-size: 60px;
+            color: $orange;      
+        }
+        p{
+            color: white;
+            font-size: 20px;
+        }
+        a{
+            font-family: 'FingerZoo', sans-serif;
+            font-size: 25px;
+            padding: 0 30px;
+        }
+    }
+}
+
+.animal-info{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    h1{
+        font-family: 'FingerZoo', sans-serif;
+        text-transform: uppercase;
+        color: $orange;
+        padding-bottom: 30px;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .card{
+        height: 550px;
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: 'FingerZoo', sans-serif;
+    }
+    #lemuri{
+        background-color: #7e5179;
+        h4{
+            font-family: 'FingerZoo', sans-serif;
+            color: darken(#fff465, 10%);
+        }
+        p{
+            color: white;
+        }
+    }
+    #tigrovi{
+        background-color: #e31b22;
+        color: white;
+        h4{
+            color: black;
+            font-family: 'FingerZoo', sans-serif;
+        }
+    }
+    #zirafe{
+        background-color: #b2bb1e;
+        color: white;
+        h4{
+            color: #095337;
+            font-family: 'FingerZoo', sans-serif;
+        }
+    }
+}
+
+.gallery-section{
+    font-family: 'FingerZoo', sans-serif;
+    .gallery{
+        background-image: url("../img/Galerija.jpg");
+        height: 600px;
+        background-position: center;
+        text-align: center;
+        h1{
+            position: relative;
+            top: 8%;
+            text-transform: uppercase;
+            color: white;
+            background-color: #0a6946;
+        }
+        a{
+            position: relative;
+            top: 45%;
+            font-size: 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            background-color: #0a6946;
+            padding: 15px 25px;
+            border-radius: 5%;
+            transition: 0.4s;
+            &:hover{
+                background-color: darken(#0a6946, 7%);
+            }
+        }
+    }
+}
+
+.news-section{
+    background-image: url("../img/NewsPozadina.png");
+
+    padding-top: 50px;
+    h1{
+        font-family: 'FingerZoo', sans-serif;
+        text-transform: uppercase;
+        color: $orange;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    padding-bottom: 50px;
+    .card{
+        margin-bottom: 20px;
+        height: 620px;
+        border: 1px black solid;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0 20px 0;
+    background-color: rgb(44, 44, 44);
+    img{
+        margin-bottom: 30px;
+    }
+    .logo{
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .links{
+        margin-right: 35px;
+        font-family: 'FingerZoo', sans-serif;
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: darken(white, 25%) !important;
+                    }   
+                }
+            }
+        }
+    }
+    .bg-prijatelj{
+        position: relative;
+        top: 10%;
+    }
+    .bioloski{
+        position: relative;
+        top: 15%;
+    }
+    .medicina{
+        position: relative;
+        top: 15%;
+    }
+}
+
+.after-footer{
+    background-color: $orange;
+    padding: 7px 0;
+    color: white;
+    text-align: center;
+    p{
+        padding-top: 10px;
+        color: darken($orange, 30%);
+    }
+}

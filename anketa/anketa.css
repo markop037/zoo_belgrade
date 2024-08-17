@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Fallow";
+  src: url("../fonts/Fallow-3zg28.otf");
+}
+@font-face {
+  font-family: "FingerZoo";
+  src: url("../fonts/Asap-Symbol.otf");
+}
+header nav {
+  font-family: "FingerZoo", sans-serif;
+  background-color: rgba(0, 0, 1, 0.8);
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+header nav img {
+  height: 60px;
+}
+header nav .navbar-toggler {
+  box-shadow: none !important;
+}
+header nav a {
+  color: white !important;
+  transition: 0.4s !important;
+}
+header nav a:hover {
+  color: #bfbfbf !important;
+}
+header nav #ulaznice {
+  margin-right: 40px !important;
+  background-color: #f17903;
+  padding: 10px 20px !important;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+header nav #ulaznice:hover {
+  background-color: #a55302;
+  color: white !important;
+}
+
+h1 {
+  font-family: "FingerZoo", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f17903;
+  padding: 70px 0;
+}
+
+#con {
+  max-width: 500px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+#con:hover {
+  background-color: #f1f1f1;
+}
+#con .question {
+  margin-bottom: 20px;
+}
+#con .question p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#con .question select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+#con .question select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px #007bff;
+}
+#con button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f17903;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#con button:hover {
+  background-color: #bf6002;
+}
+#con #statistics {
+  margin-top: 30px;
+}
+#con #statistics h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #f17903;
+}
+#con #statistics ul {
+  list-style-type: none;
+  padding: 0;
+}
+#con #statistics ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#con #statistics ul li.red {
+  color: red;
+}
+#con #statistics ul li.orange {
+  color: #ffc107;
+}
+#con #statistics ul li.green {
+  color: #28a745;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  background-color: rgb(44, 44, 44);
+}
+footer img {
+  margin-bottom: 30px;
+}
+footer .logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+footer .links {
+  margin-right: 35px;
+  font-family: "FingerZoo", sans-serif;
+}
+footer .links ul {
+  list-style: none;
+}
+footer .links ul li {
+  margin-bottom: 10px;
+}
+footer .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .links ul li a:hover {
+  color: #bfbfbf !important;
+}
+footer .bg-prijatelj {
+  position: relative;
+  top: 10%;
+}
+footer .bioloski {
+  position: relative;
+  top: 15%;
+}
+footer .medicina {
+  position: relative;
+  top: 15%;
+}
+
+.after-footer {
+  background-color: #f17903;
+  padding: 7px 0;
+  color: white;
+  text-align: center;
+}
+.after-footer p {
+  padding-top: 10px;
+  color: #5a2d01;
+}/*# sourceMappingURL=anketa.css.map */
